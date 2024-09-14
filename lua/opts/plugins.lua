@@ -81,7 +81,12 @@ M.plugins = {
     "nvim-telescope/telescope.nvim",
     branch = "0.1.x",
     dependencies = { "nvim-lua/plenary.nvim" },
-    config = true,
+    opts = {
+      defaults = {
+        file_ignore_patterns = { "node_modules", ".git" },
+      },
+      find_files = { hidden = true },
+    },
     event = "VimEnter",
   },
 
@@ -96,7 +101,7 @@ M.plugins = {
   -- 图标
   {
     "nvim-tree/nvim-web-devicons",
-    event = "VimEnter",
+    -- event = "VimEnter",
   },
 
   -- 滚动动效
@@ -155,7 +160,12 @@ M.plugins = {
   -- 快捷注释
   {
     "numToStr/Comment.nvim",
-    config = true,
+    opts = {
+      toggler = {
+        line = "<C-_>",
+        block = "<Leader><C-_>",
+      }
+    },
     event = "BufEnter",
   },
 

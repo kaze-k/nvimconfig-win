@@ -83,9 +83,9 @@ set.smarttab = true
 
 -- 设置tab键
 set.expandtab = true
-set.tabstop = 4
-set.shiftwidth = 4
-set.softtabstop = 4
+set.tabstop = 2
+set.shiftwidth = 2
+set.softtabstop = 2
 
 -- 可视模式下进行代码块复制
 set.virtualedit = "block"

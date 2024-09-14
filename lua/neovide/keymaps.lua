@@ -1,6 +1,13 @@
 local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
+-- 切换全屏
+vim.api.nvim_create_user_command(
+  "NeovideToggleFullScreen",
+  function() vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen end,
+  {}
+)
+
 -- neovide功能键
 map({ "n", "v", "i", "c" }, "<F11>", "<Cmd>NeovideToggleFullScreen<CR>", opts)
 
