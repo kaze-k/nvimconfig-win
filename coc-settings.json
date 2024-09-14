@@ -1,0 +1,180 @@
+{
+    // == 代码补全 ==
+    // [ vue ]
+    "vetur.format.enable": true,
+    "vetur.format.options.tabSize": 2,
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.validation.style": true,
+    "vetur.validation.script": true,
+    "vetur.validation.interpolation": true,
+    // [ html ]
+    "html.filetypes": [
+        "html",
+        "handlebars",
+        "htmldjango",
+        "blade"
+    ],
+    "html.format.enable": true,
+    "html.format.templating": true,
+    "html.validate.styles": true,
+    "html.validate.scripts": true,
+    "html.autoClosingTags": true,
+    "html.trace.server": "messages",
+    // [ css ]
+    "css.trace.server": "messages",
+    // [ javascript/typescript ]
+    "tsserver.enable": true,
+    "tsserver.locale": "zh-CN",
+    "tsserver.npm": "",
+    // == coc插件==
+    // [ snippets ]
+    "snippets.priority": 90,
+    "snippets.autoTrigger": true,
+    "snippets.loadFromExtensions": true,
+    "snippets.ultisnips.enable": true,
+    "snippets.snipmate.enable": true,
+    "snippets.shortcut": "Snippet",
+    // [ lightbulb ]
+    "lightbulb.enableSign": false,
+    "lightbulb.enableVirtualText": true,
+    "lightbulb.virtualTextPosition": "auto",
+    "lightbulb.followDiagnostic": true,
+    "lightbulb.text": {
+        "default": "",
+        "quickfix": ""
+    },
+    "lightbulb.excludeFiletypes": [],
+    "lightbulb.only": [],
+    // [ marketplace ]
+    "marketplace.npmsio": false,
+    // [ yank ]
+    "yank.limit": 3,
+    "yank.priority": 90,
+    "yank.list.maxsize": 300,
+    "yank.byteLengthLimit": 10240,
+    "yank.enableCompletion": true,
+    "yank.highlight.enable": true,
+    "yank.highlight.duration": 500,
+    // == coc设置 ==
+    "coc.preferences.extensionUpdateCheck": "weekly",
+    "coc.preferences.maxFileSize": "10MB",
+    "coc.preferences.willSaveHandlerTimeout": 500,
+    "coc.preferences.jumpCommand": "edit",
+    "coc.preferences.messageLevel": "more",
+    "coc.preferences.bracketEnterImprove": true,
+    "coc.preferences.floatActions": true,
+    "coc.preferences.enableMarkdown": true,
+    "coc.preferences.formatOnSave": false,
+    "coc.preferences.formatOnType": false,
+    // == 选择设置 ==
+    "suggest.enablePreselect": false,
+    "suggest.enableFloat": true,
+    "suggest.triggerAfterInsertEnter": true,
+    "suggest.noselect": true,
+    "suggest.formatItems": [
+        "kind",
+        "abbr",
+        "menu",
+        "shortcut"
+    ],
+    "suggest.floatConfig": {
+        "border": true,
+        "rounded": true,
+        "borderhighlight": "CocBold"
+        // "shadow": true
+    },
+    "suggest.labelMaxLength": 200,
+    "suggest.timeout": 5000,
+    "suggest.selection": "recentlyUsed",
+    "suggest.autoTrigger": "always",
+    "suggest.snippetIndicator": " ",
+    // [ icons ]
+    "suggest.completionItemKindLabels": {
+        "keyword": "",
+        "variable": "",
+        "value": "",
+        "operator": "",
+        "constructor": "",
+        "function": "",
+        "reference": "",
+        "constant": "",
+        "method": "",
+        "struct": "",
+        "class": "",
+        "interface": "",
+        "text": "",
+        "enum": "",
+        "enumMember": "",
+        "module": "",
+        "color": "",
+        "property": "",
+        "field": "",
+        "unit": "",
+        "event": "",
+        "file": "",
+        "folder": "",
+        "snippet": "",
+        "typeParameter": "",
+        "default": ""
+    },
+    // == 诊断 ==
+    "diagnostic.enable": true,
+    "diagnostic.refreshOnInsertMode": true,
+    "diagnostic.autoRefresh": true,
+    "diagnostic.showUnused": true,
+    "diagnostic.showDeprecated": true,
+    "diagnostic.enableHighlightLineNumber": true,
+    "diagnostic.highlightPriority": 4096,
+    "diagnostic.checkCurrentLine": true,
+    // [ sign ]
+    "diagnostic.signPriority": 100,
+    "diagnostic.enableSign": true,
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": "",
+    // [ virtualText ]
+    "diagnostic.virtualText": true,
+    "diagnostic.virtualTextCurrentLineOnly": true,
+    "diagnostic.virtualTextLines": 3,
+    "diagnostic.virtualTextLineSeparator": "  ",
+    "diagnostic.virtualTextPrefix": "  ",
+    "diagnostic.virtualTextLevel": "information",
+    // [ message ]
+    "diagnostic.enableMessage": "always",
+    "diagnostic.messageDelay": 200,
+    "diagnostic.messageTarget": "float",
+    "diagnostic.floatConfig": {
+        // "shadow": true,
+        "border": true,
+        "rounded": true
+    },
+    "diagnostic.format": " %source[%severity]: %message",
+    "diagnostic.separateRelatedInformationAsDiagnostics": true,
+    // == npm ==
+    "npm.binPath": "npm",
+    // == 代码片段 ==
+    "snippet.statusText": "",
+    // == 大纲 ==
+    "outline.autoPreview": true,
+    "outline.keepWindow": true,
+    "outline.previewBorderRounded": true,
+    "outline.showLineNumber": false,
+    // [ 其他 ]
+    "colors.enable": true,
+    "codeLens.enable": true,
+    "signature.hideOnTextChange": true,
+    "signature.preferShownAbove": false,
+    "workspace.rootPatterns": [
+        ".git",
+        ".hg",
+        ".projections.json"
+    ],
+    // 文档的浮动窗口设置
+    "hover.floatConfig": {
+        "border": true
+    }
+}
