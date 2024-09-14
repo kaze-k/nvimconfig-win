@@ -64,7 +64,7 @@ set.showcmd = true
 set.wildmenu = true
 
 -- 设置鼠标
-set.mouse = "n"
+set.mouse = "a"
 
 -- 颜色
 set.termguicolors = true

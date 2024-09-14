@@ -79,6 +79,7 @@ map("n", "<Leader><Leader>G", "<Cmd>Neogit<CR>", opts)
 
 -- toggleterm
 map("n", "<C-j>", "<Cmd>ToggleTerm<CR>", opts) -- 打开\关闭默认终端
+map("t", "<C-j>", "<Cmd>ToggleTerm<CR>", opts) -- 打开\关闭默认终端
 map("n", "<Leader>q1", "<Cmd>ToggleTerm direction=horizontal<CR>", opts) -- 在下方打开终端
 map("n", "<Leader>q2", "<Cmd>ToggleTerm direction=float<CR>", opts) -- 打开浮动终端
 map("n", "<Leader>q3", "<Cmd>ToggleTerm direction=vertical<CR>", opts) -- 打开侧边终端
