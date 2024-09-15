@@ -288,7 +288,7 @@ M.plugins = {
   -- coc
   {
     "neoclide/coc.nvim",
-    build = "yarn install --frozen-lockfile",
+    build = "npm ci",
     config = function() require("config.coc") end,
     event = "VimEnter",
   },

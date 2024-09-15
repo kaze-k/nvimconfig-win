@@ -176,5 +176,6 @@
     // 文档的浮动窗口设置
     "hover.floatConfig": {
         "border": true
-    }
+    },
+    "snippets.ultisnips.pythonPrompt": false
 }

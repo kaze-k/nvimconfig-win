@@ -8,7 +8,7 @@ vim.g.coc_global_extensions = {
   "coc-snippets",
   "coc-marketplace",
   "coc-lightbulb",
-  "coc-vetur",
+  "coc-volar",
 }
 
 local map = vim.keymap.set
