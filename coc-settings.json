@@ -1,15 +1,5 @@
 {
     // == 代码补全 ==
-    // [ vue ]
-    "vetur.format.enable": true,
-    "vetur.format.options.tabSize": 2,
-    "vetur.format.defaultFormatter.js": "prettier",
-    "vetur.format.defaultFormatter.ts": "prettier",
-    "vetur.format.defaultFormatter.css": "prettier",
-    "vetur.format.defaultFormatter.html": "prettier",
-    "vetur.validation.style": true,
-    "vetur.validation.script": true,
-    "vetur.validation.interpolation": true,
     // [ html ]
     "html.filetypes": [
         "html",
@@ -153,7 +143,6 @@
         "rounded": true
     },
     "diagnostic.format": " %source[%severity]: %message",
-    "diagnostic.separateRelatedInformationAsDiagnostics": true,
     // == npm ==
     "npm.binPath": "npm",
     // == 代码片段 ==

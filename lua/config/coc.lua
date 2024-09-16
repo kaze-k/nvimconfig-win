@@ -8,7 +8,6 @@ vim.g.coc_global_extensions = {
   "coc-snippets",
   "coc-marketplace",
   "coc-lightbulb",
-  "coc-volar",
 }
 
 local map = vim.keymap.set
@@ -110,7 +109,7 @@ map(
 map("i", "<S-Tab>", [[coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"]], expr_opts) -- 使用<S-TAB>进行补全选择
 
 map("i", "<CR>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], expr_opts) -- 确定使用
-map("i", "<C-j>", "coc#refresh()", { silent = true, expr = true }) -- 触发补全
+map("i", "<C-i>", "coc#refresh()", { silent = true, expr = true }) -- 触发补全
 map("i", "<C-l>", "<Plug>(coc-snippets-expand-jump)", opts) -- 展开代码段
 
 -- coc插件按键
